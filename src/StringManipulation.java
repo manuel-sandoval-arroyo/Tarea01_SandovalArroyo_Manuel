@@ -1,12 +1,11 @@
 public class StringManipulation {
     public static void main(String[] args) {
-        final String originalPhrase = "- 6 - Esta es mi primer tarea y voy a sacar un diecesote- 33 -";
-        final String originalString = "   Esta es mi primera tarea y voy a sacar un diecesote";
+        final String originalPhrase = "      Esta es mi primer tarea y voy a sacar un diecesote                                 ";
 
-        String phrase1 = originalString.trim();
-        String phrase2 = phrase1.substring(0, 27) + phrase1.substring(27).toUpperCase();
+        String phrase1 = originalPhrase.trim();
+        String phrase2 = phrase1.substring(0, 26) + phrase1.substring(26).toUpperCase();
         String phrase3 = phrase1.replaceAll(" ", "").toLowerCase();
-        String phrase4 = phrase1.replaceAll("e", "a").toUpperCase();
+        String phrase4 = phrase1.replaceAll("[eE]", "a").toLowerCase();
         String phrase5 = phrase1.replaceAll("[^aeiouAEIOU\s]", "");
         String phrase6 = phrase1.replaceAll("[aeiouAEIOU]", "");
         String phrase7 = phrase1.replaceAll("[aeiouAEIOU]", "I");

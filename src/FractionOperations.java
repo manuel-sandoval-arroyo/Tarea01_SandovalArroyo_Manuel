@@ -12,8 +12,20 @@ public class FractionOperations {
         Fraccion division = F1.dividir(F2);
         Fraccion elevation = F2.multiplicar(F2.dividir(F1).sumar(F3).restar(F4)).potencia(3);
 
-        double transformedAddition = F4.dividir(F2).sumar(F3.multiply(F1)).aDecimal();
+        double transformedAddition = F4.dividir(F2).sumar(F3.multiplicar(F1)).aDecimal();
 
         Fraccion decimalToDecimal = new Fraccion().aFraccion((896 / 35) * 8);
+
+        System.out.println("F1: " + F1);
+        System.out.println("F2: " + F2);
+        System.out.println("F3: " + F3);
+        System.out.println("F4: " + F4);
+        System.out.println("F1 + F4: " + addition);
+        System.out.println("F4 - F1: " + difference);
+        System.out.println("F3 * F1: " + multiplication);
+        System.out.println("F1 / F2: " + division);
+        System.out.println("(F2 * (F3 + (F2 / F1) - F4))^ 3: " + elevation);
+        System.out.println("F4 / F2 + F3 * F1: " + transformedAddition);
+        System.out.println("896 / 35 * 8: " + decimalToDecimal);
     }
 }
