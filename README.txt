@@ -1,6 +1,6 @@
-La parte práctica está estructurada en tres partes. Similarmente, la estructura de los archivos fuente de tipo java están estructurados en partes independientes de sí.
+La parte práctica está estructurada en tres partes. Similarmente, la estructura de los archivos fuente de tipo java están estructurados en tres partes independientes de sí.
 
-Las partes de la práctica relacionado con el programa que lo resuelve está ordenado de la siguiente manera:
+Las parte de la práctica relacionada con el programa que lo resuelve está ordenado de la siguiente manera:
 
 Problema 1 -> StringManipulation.java
 Para ejecutar solución, dentro del directorio src
