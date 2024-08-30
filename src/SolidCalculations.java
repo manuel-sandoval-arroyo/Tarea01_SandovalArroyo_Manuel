@@ -1,6 +1,11 @@
 import java.util.Scanner;
 
 /**
+ * @author Manuel Sandoval Arroyo
+ * @version 1.0
+ * @date 2024-08-29
+ * @since 2024-08-29
+ *
  * La clase SolidCalculations se encarga de calcular el área superficial y el volumen de un prisma triangular y un toroide.
  * Solicita al usuario que ingrese las dimensiones necesarias y realiza los cálculos correspondientes.
  */

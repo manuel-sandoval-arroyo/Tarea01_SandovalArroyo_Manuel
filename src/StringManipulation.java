@@ -1,4 +1,9 @@
 /**
+ * @author Manuel Sandoval Arroyo
+ * @version 1.0
+ * @date 2024-08-29
+ * @since 2024-08-29
+ *
  * La clase StringManipulation proporciona métodos para manipular cadenas de texto.
  * Incluye varias operaciones como recortar, obtener subcadenas, reemplazar caracteres e implementado de forma secuencial.
  */

@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"<Unnamed>","l":"FractionOperations"},{"p":"<Unnamed>","l":"SolidCalculations"},{"p":"<Unnamed>","l":"StringManipulation"}];updateSearchResults();
