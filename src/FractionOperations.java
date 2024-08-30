@@ -1,5 +1,17 @@
 
+/**
+ * La clase FractionOperations representa un programa que realiza varias operaciones con fracciones.
+ * utiliza métodos para sumar, restar, multiplicar, dividir y elevar fracciones.
+ * La clase también usa un método para convertir una fracción en un valor decimal.
+ */
 public class FractionOperations {
+    /**
+     * El método principal del programa.
+     * Crea instancias de la clase Fraccion y realiza operaciones matemáticas con ellas.
+     * Imprime los resultados por consola.
+     *
+     * @param args Los argumentos de la línea de comandos.
+     */
     public static void main(String[] args) {
         final Fraccion F1 = new Fraccion(1, 3, 2);
         final Fraccion F2 = new Fraccion(2300, 349);

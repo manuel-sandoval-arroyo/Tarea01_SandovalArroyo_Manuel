@@ -1,3 +1,7 @@
+/**
+ * La clase StringManipulation proporciona métodos para manipular cadenas de texto.
+ * Incluye varias operaciones como recortar, obtener subcadenas, reemplazar caracteres e implementado de forma secuencial.
+ */
 public class StringManipulation {
     public static void main(String[] args) {
         final String originalPhrase = "      Esta es mi primer tarea y voy a sacar un diecesote                                 ";
