@@ -27,6 +27,8 @@ public class FractionOperations {
 
         Fraccion decimalToDecimal = new Fraccion().aFraccion((896 / 35) * 8);
 
+        boolean comparison = new Fraccion(42, 25).equals(new Fraccion(1, 68, 100));
+
         System.out.println("F1: " + F1);
         System.out.println("F2: " + F2);
         System.out.println("F3: " + F3);
@@ -38,5 +40,6 @@ public class FractionOperations {
         System.out.println("(F2 * (F3 + (F2 / F1) - F4))^ 3: " + elevation);
         System.out.println("F4 / F2 + F3 * F1: " + transformedAddition);
         System.out.println("896 / 35 * 8: " + decimalToDecimal);
+        System.out.println("42 / 25 == 1 + 68/100: " + comparison);
     }
 }
